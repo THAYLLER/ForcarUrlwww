@@ -7,5 +7,5 @@ function forcaWWW() {
 	}
 
 	if(substr($_SERVER[HTTP_HOST],0,4)!="www.")
-		header('Location: '$proc.'www.'.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI].'');
+		header('Location: '.$proc.'www.'.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI].'');
 }

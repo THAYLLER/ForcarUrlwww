@@ -1,2 +1,2 @@
 # forcar_url_www
-forçar uma url que não tem www a ter o www
+Verifica se foi inserido na url o www caso não tenha sido ele insere automáticamente.

@@ -1,5 +1,5 @@
 <?php
-function forcaWWW() {
+function forcaProc() {
 	if ($_SESSION["config"]["sslStatus"] && !isset($_SERVER["HTTPS"])) {
 		$proc = "https://";
 	} elseif ((!isset($_SERVER["HTTPS"])) || (!$_SESSION["config"]["sslStatus"] && isset($_SERVER["HTTPS"]))) {
